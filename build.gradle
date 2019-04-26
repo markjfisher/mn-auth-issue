@@ -7,8 +7,6 @@ plugins {
     id "application"
 }
 
-
-
 version "0.1"
 group "mn.auth.issue"
 
@@ -35,11 +33,12 @@ dependencies {
     compile "io.micronaut:micronaut-http-client"
     compile "javax.annotation:javax.annotation-api"
     compile "io.micronaut:micronaut-http-server-netty"
-	implementation "io.micronaut:micronaut-security"
-
+	compile "io.micronaut:micronaut-security"
 
     kapt "io.micronaut:micronaut-inject-java"
     kapt "io.micronaut:micronaut-validation"
+	kapt "io.micronaut:micronaut-security"
+
     kaptTest "io.micronaut:micronaut-inject-java"
     runtime "com.fasterxml.jackson.module:jackson-module-kotlin:2.9.8"
     runtime "ch.qos.logback:logback-classic:1.2.3"

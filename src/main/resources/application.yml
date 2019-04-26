@@ -2,7 +2,7 @@ micronaut:
   application:
     name: mn-auth-issue
   security:
-    enabled: true
+    enabled: false
 app:
   security:
     endpoints:
