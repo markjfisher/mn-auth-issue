@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: mn-auth-issue
+  security:
+    enabled: true
+app:
+  security:
+    endpoints:
+      username: user
+      password: pass
